@@ -24,7 +24,7 @@ config_schema:
   - ["device.id", "MYDEVICE_01"]
   - ["mqtt.enable", true]
   - ["mqtt.server", "<your_hass_ip_address>:<port>"]
-  - ["mqtt.user", "<your_hass_mqtt_broker_username"]
+  - ["mqtt.user", "<your_hass_mqtt_broker_username>"]
   - ["mqtt.pass", "<your_hass_mqtt_broker_password>"]
   - ["mqtt.keep_alive", 15]
   - ["mqtt.will_topic", "hass/things/${device_id}/availability"]
